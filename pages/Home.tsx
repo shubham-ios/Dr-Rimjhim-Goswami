@@ -49,12 +49,18 @@ const Home: React.FC = () => {
               </p>
 
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link
+                {/* <Link
                   to="/book"
                   className="bg-rose text-white px-8 py-4 rounded-full font-medium text-center hover:bg-rose/90 transition-colors shadow-lg shadow-rose/20"
                 >
                   Book Your Consultation
-                </Link>
+                </Link> */}
+                <a
+                  href="tel:+917627005924"
+                  className="bg-rose text-white px-8 py-4 rounded-full font-medium text-center hover:bg-rose/90 transition-colors shadow-lg shadow-rose/20"
+                >
+                  Book Your Consultation
+                </a>
                 <Link
                   to="/about"
                   className="px-8 py-4 rounded-full font-medium text-sage border border-sage/20 hover:bg-sage/5 transition-colors text-center"
@@ -209,7 +215,7 @@ const Home: React.FC = () => {
             <h4 className="font-serif text-sage text-xl mb-2">Visit Our Clinic</h4>
             {/* <p className="text-charcoal/70 text-sm">Chhatarpur, New Delhi</p> */}
             <p className="text-charcoal/70 text-sm mb-4">Open Mon-Sun, 10:00 am - 8:00 pm</p>
-            <Link to="https://maps.app.goo.gl/Y36TEtkoGeWRkSmo9" className="text-rose text-sm font-bold uppercase tracking-wider">Get Directions</Link>
+            <a href="https://maps.app.goo.gl/Y36TEtkoGeWRkSmo9" target="_blank" rel="noopener noreferrer" className="text-rose text-sm font-bold uppercase tracking-wider">Get Directions</a>
           </div>
         </section>
       </Layout>

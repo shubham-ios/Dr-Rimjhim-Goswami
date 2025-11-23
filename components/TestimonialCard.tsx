@@ -10,7 +10,7 @@ const TestimonialCard: React.FC<Props> = ({ data }) => {
   return (
     <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 relative group hover:shadow-md transition-shadow duration-300">
       <Quote className="absolute top-6 left-6 text-sage/10 w-12 h-12 rotate-180" />
-      <div className="relative z-10 pt-4">
+      <div className="relative z-10 pt-12">
         <p className="font-serif text-lg leading-relaxed text-charcoal/80 mb-6 italic">
           "{data.quote}"
         </p>

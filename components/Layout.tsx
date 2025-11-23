@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Phone, Calendar, Instagram, Mail, MapPin } from 'lucide-react';
+import { Menu, X, Phone, Calendar, Instagram, Mail, MapPin, Facebook, MessageCircle } from 'lucide-react';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -43,13 +43,20 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <Link to="/about" className="text-charcoal hover:text-sage transition-colors font-medium">About & Mission</Link>
             <Link to="/services" className="text-charcoal hover:text-sage transition-colors font-medium">Conditions</Link>
             <Link to="/contact" className="text-charcoal hover:text-sage transition-colors font-medium">Contact</Link>
-            <Link
+            {/* <Link
               to="/book"
               className="bg-rose text-white px-6 py-2.5 rounded-full hover:bg-rose/90 transition-all shadow-lg hover:shadow-xl font-medium flex items-center gap-2"
             >
               <Calendar size={18} />
               <span>Book Consultation</span>
-            </Link>
+            </Link> */}
+            <a
+              href="tel:+917627005924"
+              className="bg-rose text-white px-6 py-2.5 rounded-full hover:bg-rose/90 transition-all shadow-lg hover:shadow-xl font-medium flex items-center gap-2"
+            >
+              <Calendar size={18} />
+              <span>Book Consultation</span>
+            </a>
           </div>
 
           {/* Mobile Menu Button */}
@@ -96,10 +103,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 Curing the patient, not just the disease. Combining nurturing care with clinical science to help families complete their stories.
               </p>
               <div className="flex space-x-4">
-                <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-clay transition-colors">
+                <a href="https://www.instagram.com/dr.rimjhim.goswami/" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/10 rounded-full hover:bg-clay transition-colors">
                   <Instagram size={20} />
                 </a>
-                <a href="#" className="p-2 bg-white/10 rounded-full hover:bg-clay transition-colors">
+                <a href="https://www.facebook.com/profile.php?id=61581202824478" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/10 rounded-full hover:bg-clay transition-colors">
+                  <Facebook size={20} />
+                </a>
+                <a href="https://wa.me/+917627005924" target="_blank" rel="noopener noreferrer" className="p-2 bg-white/10 rounded-full hover:bg-clay transition-colors">
+                  <MessageCircle size={20} />
+                </a>
+                <a href="mailto:drrimjhimsharma33@gmail.com" className="p-2 bg-white/10 rounded-full hover:bg-clay transition-colors">
                   <Mail size={20} />
                 </a>
               </div>
@@ -123,7 +136,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </div>
               <div className="flex items-center space-x-3 text-white/80">
                 <Phone size={18} />
-                <p>+91 76270 05924</p>
+                <a href="tel:+917627005924" className="hover:text-white transition-colors">+91 76270 05924</a>
               </div>
             </div>
           </div>
