@@ -196,7 +196,7 @@ const Home: React.FC = () => {
         {/* Map Section */}
         <section className="h-[400px] w-full bg-gray-200 relative">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56099.78796069818!2d77.169921!3d28.502524000000015!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f142b730c9b%3A0xdd2ade587cf1a3e2!2sDr.%20Rimjhim&#39;s%20Healthcare%20Homeopathy!5e0!3m2!1sen!2sin!4v1763913417385!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2758.082197645917!2d77.18314101000263!3d28.50192928332786!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d1f142b730c9b%3A0xdd2ade587cf1a3e2!2sDr.%20Rimjhim&#39;s%20Healthcare%20Homeopathy!5e0!3m2!1sen!2sin!4v1763914008196!5m2!1sen!2sin"
             width="100%"
             height="100%"
             style={{ border: 0, filter: 'grayscale(0.4) opacity(0.8)' }}
