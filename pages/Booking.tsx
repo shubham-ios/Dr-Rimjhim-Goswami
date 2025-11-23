@@ -24,7 +24,7 @@ const Booking: React.FC = () => {
     <>
       <title>Book Consultation | Dr. Rimjhim Goswami</title>
       <meta name="description" content="Schedule your consultation for infertility or chronic condition treatment. Online video calls or in-clinic visits in Chhatarpur, Delhi available." />
-      
+
       <Layout>
         <div className="min-h-[80vh] bg-oatmeal py-12 px-4 sm:px-6">
           <div className="max-w-2xl mx-auto">
@@ -49,9 +49,9 @@ const Booking: React.FC = () => {
                 <div className="space-y-6">
                   <h2 className="font-serif text-3xl text-sage text-center mb-2">How would you like to consult?</h2>
                   <p className="text-center text-charcoal/60 mb-8">Choose the option that suits you best.</p>
-                  
+
                   <div className="grid md:grid-cols-2 gap-4">
-                    <button 
+                    <button
                       onClick={() => handleTypeSelect('clinic')}
                       className="p-6 border-2 border-gray-100 rounded-2xl hover:border-sage hover:bg-sage/5 transition-all text-left group"
                     >
@@ -62,9 +62,9 @@ const Booking: React.FC = () => {
                       <p className="text-sm text-charcoal/60">Visit us at Chhatarpur, New Delhi. Ideal for physical examination.</p>
                     </button>
 
-                    <button 
-                       onClick={() => handleTypeSelect('online')}
-                       className="p-6 border-2 border-gray-100 rounded-2xl hover:border-sage hover:bg-sage/5 transition-all text-left group"
+                    <button
+                      onClick={() => handleTypeSelect('online')}
+                      className="p-6 border-2 border-gray-100 rounded-2xl hover:border-sage hover:bg-sage/5 transition-all text-left group"
                     >
                       <div className="bg-clay/10 w-12 h-12 rounded-full flex items-center justify-center text-clay mb-4 group-hover:bg-clay group-hover:text-white transition-colors">
                         <Video size={24} />
@@ -82,15 +82,15 @@ const Booking: React.FC = () => {
                   <h2 className="font-serif text-2xl text-sage mb-6">Select a Time</h2>
                   {/* Mock Calendar Grid */}
                   <div className="grid grid-cols-3 gap-2 mb-6">
-                     {['10:00 AM', '11:30 AM', '01:00 PM', '04:00 PM', '05:30 PM', '06:45 PM'].map(time => (
-                       <button 
-                          key={time}
-                          onClick={() => setStep('details')}
-                          className="py-3 px-2 rounded-lg border border-gray-200 text-sm hover:bg-sage hover:text-white hover:border-sage transition-colors"
-                       >
-                         {time}
-                       </button>
-                     ))}
+                    {['10:00 AM', '11:30 AM', '01:00 PM', '04:00 PM', '05:30 PM', '06:45 PM'].map(time => (
+                      <button
+                        key={time}
+                        onClick={() => setStep('details')}
+                        className="py-3 px-2 rounded-lg border border-gray-200 text-sm hover:bg-sage hover:text-white hover:border-sage transition-colors"
+                      >
+                        {time}
+                      </button>
+                    ))}
                   </div>
                   <p className="text-xs text-center text-gray-400">Timezone: India Standard Time (IST)</p>
                 </div>
@@ -98,50 +98,50 @@ const Booking: React.FC = () => {
 
               {step === 'details' && (
                 <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-                   <button type="button" onClick={() => setStep('datetime')} className="text-sm text-gray-400 hover:text-charcoal mb-4">&larr; Back</button>
-                   <h2 className="font-serif text-2xl text-sage mb-4">Your Details</h2>
-                   
-                   <div className="space-y-4">
-                      <div>
-                        <label className="block text-sm font-medium text-charcoal mb-1">Full Name</label>
-                        <input 
-                          {...register('name', { required: true })}
-                          className="w-full p-3 bg-oatmeal rounded-lg border-none focus:ring-2 focus:ring-sage" 
-                          placeholder="John Doe"
-                        />
-                        {errors.name && <span className="text-xs text-red-500">Required</span>}
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium text-charcoal mb-1">Phone Number (WhatsApp)</label>
-                        <input 
-                          {...register('phone', { required: true })}
-                          className="w-full p-3 bg-oatmeal rounded-lg border-none focus:ring-2 focus:ring-sage" 
-                          placeholder="+91 98765 43210"
-                        />
-                      </div>
-                      <div>
-                        <label className="block text-sm font-medium text-charcoal mb-1">Primary Concern</label>
-                        <textarea 
-                          {...register('concern')}
-                          className="w-full p-3 bg-oatmeal rounded-lg border-none focus:ring-2 focus:ring-sage h-24" 
-                          placeholder="Briefly describe your condition..."
-                        />
-                      </div>
-                   </div>
+                  <button type="button" onClick={() => setStep('datetime')} className="text-sm text-gray-400 hover:text-charcoal mb-4">&larr; Back</button>
+                  <h2 className="font-serif text-2xl text-sage mb-4">Your Details</h2>
 
-                   <div className="bg-sage/5 p-4 rounded-xl mt-6">
-                     <div className="flex justify-between items-center mb-2">
-                       <span className="font-medium text-sage">Consultation Fee</span>
-                       <span className="font-bold text-sage text-lg">₹499</span>
-                     </div>
-                     <p className="text-xs text-charcoal/60">
-                       By booking, you support our mission to make holistic healthcare accessible.
-                     </p>
-                   </div>
+                  <div className="space-y-4">
+                    <div>
+                      <label className="block text-sm font-medium text-charcoal mb-1">Full Name</label>
+                      <input
+                        {...register('name', { required: true })}
+                        className="w-full p-3 bg-oatmeal rounded-lg border-none focus:ring-2 focus:ring-sage"
+                        placeholder="John Doe"
+                      />
+                      {errors.name && <span className="text-xs text-red-500">Required</span>}
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-charcoal mb-1">Phone Number (WhatsApp)</label>
+                      <input
+                        {...register('phone', { required: true })}
+                        className="w-full p-3 bg-oatmeal rounded-lg border-none focus:ring-2 focus:ring-sage"
+                        placeholder="+91 76270 05924"
+                      />
+                    </div>
+                    <div>
+                      <label className="block text-sm font-medium text-charcoal mb-1">Primary Concern</label>
+                      <textarea
+                        {...register('concern')}
+                        className="w-full p-3 bg-oatmeal rounded-lg border-none focus:ring-2 focus:ring-sage h-24"
+                        placeholder="Briefly describe your condition..."
+                      />
+                    </div>
+                  </div>
 
-                   <button type="submit" className="w-full bg-rose text-white py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all mt-4">
-                     Confirm Appointment
-                   </button>
+                  <div className="bg-sage/5 p-4 rounded-xl mt-6">
+                    <div className="flex justify-between items-center mb-2">
+                      <span className="font-medium text-sage">Consultation Fee</span>
+                      <span className="font-bold text-sage text-lg">₹499</span>
+                    </div>
+                    <p className="text-xs text-charcoal/60">
+                      By booking, you support our mission to make holistic healthcare accessible.
+                    </p>
+                  </div>
+
+                  <button type="submit" className="w-full bg-rose text-white py-4 rounded-full font-bold shadow-lg hover:shadow-xl transition-all mt-4">
+                    Confirm Appointment
+                  </button>
                 </form>
               )}
 
