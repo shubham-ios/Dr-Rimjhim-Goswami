@@ -27,10 +27,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="min-h-screen flex flex-col relative bg-oatmeal">
       {/* Navigation */}
-      <nav 
-        className={`fixed top-0 w-full z-40 transition-all duration-300 ${
-          scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'
-        }`}
+      <nav
+        className={`fixed top-0 w-full z-40 transition-all duration-300 ${scrolled ? 'bg-white/90 backdrop-blur-md shadow-sm py-3' : 'bg-transparent py-5'
+          }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <Link to="/" className="flex flex-col">
@@ -44,8 +43,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <Link to="/about" className="text-charcoal hover:text-sage transition-colors font-medium">About & Mission</Link>
             <Link to="/services" className="text-charcoal hover:text-sage transition-colors font-medium">Conditions</Link>
             <Link to="/contact" className="text-charcoal hover:text-sage transition-colors font-medium">Contact</Link>
-            <Link 
-              to="/book" 
+            <Link
+              to="/book"
               className="bg-rose text-white px-6 py-2.5 rounded-full hover:bg-rose/90 transition-all shadow-lg hover:shadow-xl font-medium flex items-center gap-2"
             >
               <Calendar size={18} />
@@ -54,7 +53,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           </div>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-sage p-2"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
           >
@@ -71,8 +70,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <Link to="/services" className="text-2xl font-serif text-sage">Conditions</Link>
           <Link to="/contact" className="text-2xl font-serif text-sage">Contact</Link>
           <div className="pt-8 border-t border-gray-100">
-             <Link 
-              to="/book" 
+            <Link
+              to="/book"
               className="w-full bg-rose text-white py-4 rounded-full flex justify-center items-center gap-2 font-medium"
             >
               <Calendar size={20} />
@@ -105,7 +104,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 </a>
               </div>
             </div>
-            
+
             <div>
               <h4 className="text-clay font-bold uppercase tracking-wider mb-6 text-sm">Quick Links</h4>
               <ul className="space-y-3">
@@ -120,15 +119,15 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <h4 className="text-clay font-bold uppercase tracking-wider mb-6 text-sm">Visit Us</h4>
               <div className="flex items-start space-x-3 mb-4 text-white/80">
                 <MapPin className="shrink-0 mt-1" size={18} />
-                <p>Chhatarpur, New Delhi<br/>Delhi NCR, 110074</p>
+                <p>Shop 311/3,<br />Chattarpur Temple Main Road, <br />Opposite to MCD Park, <br />Chhatarpur, New Delhi, <br />Delhi 110074</p>
               </div>
               <div className="flex items-center space-x-3 text-white/80">
                 <Phone size={18} />
-                <p>+91 98765 43210</p>
+                <p>+91 76270 05924</p>
               </div>
             </div>
           </div>
-          
+
           <div className="border-t border-white/10 pt-8 text-center text-white/40 text-sm">
             <p>&copy; {new Date().getFullYear()} Dr. Rimjhim Goswami. All rights reserved.</p>
           </div>
@@ -141,8 +140,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <span className="text-xs text-charcoal/60 font-medium">Consultation Fee</span>
           <span className="font-bold text-sage">₹499 <span className="text-xs font-normal text-charcoal/60">/ Session</span></span>
         </div>
-        <Link 
-          to="/book" 
+        <Link
+          to="/book"
           className="bg-rose text-white px-8 py-3 rounded-full font-medium shadow-lg active:scale-95 transition-transform"
         >
           Book Now
