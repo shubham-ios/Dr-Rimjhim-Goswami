@@ -36,7 +36,7 @@ export const TESTIMONIALS: Testimonial[] = [
 export const CONDITIONS: Service[] = [
   {
     id: 'infertility',
-    title: 'Infertility & IVF Support',
+    title: 'Infertility',
     description: 'Natural protocols to improve reproductive health for couples struggling to conceive.',
     icon: Baby
   },
@@ -59,8 +59,8 @@ export const CONDITIONS: Service[] = [
     icon: Droplets
   },
   {
-    id: 'pediatric',
-    title: 'Pediatric Care',
+    id: 'paediatric',
+    title: 'Paediatric Care',
     description: 'Gentle healing for immunity, growth, and developmental concerns.',
     icon: Activity
   },

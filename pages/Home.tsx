@@ -5,6 +5,10 @@ import TestimonialCard from '../components/TestimonialCard';
 import BentoGrid from '../components/BentoGrid';
 import { TESTIMONIALS, BLOG_POSTS } from '../constants';
 import { ArrowRight, CheckCircle, Star } from 'lucide-react';
+import drRimjhimImg from '../assets/dr.rimjhim_4k.jpeg';
+// import drRimjhimImg from '../assets/dr.rimjhim_1.png';
+// import drRimjhimImg from '../assets/dr.rimjhim_2.png';
+
 
 const Home: React.FC = () => {
   const [heroIndex, setHeroIndex] = useState(0);
@@ -89,14 +93,14 @@ const Home: React.FC = () => {
             <div className="order-1 lg:order-2 relative">
               <div className="relative rounded-[2.5rem] overflow-hidden aspect-[4/5] shadow-2xl">
                 <img
-                  src="https://picsum.photos/800/1000?grayscale&blur=1"
+                  src={drRimjhimImg}
                   alt="Dr. Rimjhim Goswami"
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-sage/80 to-transparent mix-blend-multiply"></div>
                 <div className="absolute bottom-8 left-8 text-white">
                   <p className="font-serif text-2xl">Dr. Rimjhim Goswami</p>
-                  <p className="text-white/80 text-sm tracking-wide uppercase mt-1">BHMS, Infertility Specialist</p>
+                  <p className="text-white/80 text-sm tracking-wide uppercase mt-1">BHMS</p>
                 </div>
               </div>
 
