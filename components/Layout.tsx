@@ -51,7 +51,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <span>Book Consultation</span>
             </Link> */}
             <button
-              onClick={() => window.open('tel:+917627005924', '_self')}
+              onClick={() => window.location.href = 'tel:+917627005924'}
               className="bg-rose text-white px-6 py-2.5 rounded-full hover:bg-rose/90 transition-all shadow-lg hover:shadow-xl font-medium flex items-center gap-2"
             >
               <Calendar size={18} />
@@ -77,13 +77,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <Link to="/services" className="text-2xl font-serif text-sage">Conditions</Link>
           <Link to="/contact" className="text-2xl font-serif text-sage">Contact</Link>
           <div className="pt-8 border-t border-gray-100">
-            <Link
-              to="/book"
+            <button
+              onClick={() => window.location.href = 'tel:+917627005924'}
               className="w-full bg-rose text-white py-4 rounded-full flex justify-center items-center gap-2 font-medium"
             >
               <Calendar size={20} />
               Book Consultation
-            </Link>
+            </button>
           </div>
         </div>
       )}
@@ -154,7 +154,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <span className="font-bold text-sage">₹499 <span className="text-xs font-normal text-charcoal/60">/ Session</span></span>
         </div> */}
         <button
-          onClick={() => window.open('tel:+917627005924', '_self')}
+          onClick={() => window.location.href = 'tel:+917627005924'}
           className="bg-rose text-white px-8 py-3 rounded-full font-medium shadow-lg active:scale-95 transition-transform w-full text-center"
         >
           Book Consultation
