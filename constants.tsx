@@ -12,24 +12,24 @@ Result: Natural conception, followed by a second child a year later without any 
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
-    name: "Priya & Rajesh K.",
-    condition: "Infertility",
-    quote: "We had lost hope after multiple IVF cycles. Dr. Rimjhim didn't just treat our bodies; she healed our hope. Our twins are now 2 years old.",
-    outcome: "Natural Conception after 8 years"
+    name: "Anupama Rathour",
+    condition: "Vertigo",
+    quote: "I have visited Dr rimjhim clinic for vertigo treatment. I have got best results. She is very polite and friendly. Treatment is very effective and cost effective.",
+    outcome: ""
   },
   {
     id: 2,
-    name: "Sarah M.",
-    condition: "PCOS & Skin Issues",
-    quote: "I was told hormonal pills were my only option. Homeopathy changed my life without a single side effect.",
-    outcome: "Regular cycles & clear skin"
+    name: "Akshat",
+    condition: "Hair Issues",
+    quote: "I have visited Dr rimjhim clinic for hair treatment. I have got best results in three months. She is very polite and knowledgeable. Treatment is very effective and cost effective.",
+    outcome: ""
   },
   {
     id: 3,
-    name: "Amit V.",
-    condition: "Chronic Kidney Stones",
-    quote: "The pain was unbearable, and surgery seemed inevitable. Dr. Rimjhim's approach dissolved the stones naturally.",
-    outcome: "Stone-free for 3 years"
+    name: "Aditi Dubey",
+    condition: "Migrane",
+    quote: "Mujhe migrane ki dikkat thi mene maam ke paas dikhaya to mujhe bahut jaldi result mila. Treatment ka price bhi bahut sahi h. Thanks maam",
+    outcome: ""
   }
 ];
 
