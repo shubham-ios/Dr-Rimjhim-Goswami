@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '../components/Layout';
 import { METRO_STORY, IMPACT_DATA } from '../constants';
 import { AreaChart, Area, XAxis, YAxis, Tooltip, ResponsiveContainer } from 'recharts';
+import drRimjhimImg from '../assets/dr.rimjhim_1.png';
 
 const About: React.FC = () => {
   return (
