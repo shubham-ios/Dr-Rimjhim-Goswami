@@ -59,12 +59,12 @@ const Home: React.FC = () => {
                 >
                   Book Your Consultation
                 </Link> */}
-                <a
-                  href="tel:+917627005924"
+                <button
+                  onClick={() => window.open('tel:+917627005924', '_self')}
                   className="bg-rose text-white px-8 py-4 rounded-full font-medium text-center hover:bg-rose/90 transition-colors shadow-lg shadow-rose/20"
                 >
                   Book Your Consultation
-                </a>
+                </button>
                 <Link
                   to="/about"
                   className="px-8 py-4 rounded-full font-medium text-sage border border-sage/20 hover:bg-sage/5 transition-colors text-center"

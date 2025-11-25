@@ -50,13 +50,13 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               <Calendar size={18} />
               <span>Book Consultation</span>
             </Link> */}
-            <a
-              href="tel:+917627005924"
+            <button
+              onClick={() => window.open('tel:+917627005924', '_self')}
               className="bg-rose text-white px-6 py-2.5 rounded-full hover:bg-rose/90 transition-all shadow-lg hover:shadow-xl font-medium flex items-center gap-2"
             >
               <Calendar size={18} />
               <span>Book Consultation</span>
-            </a>
+            </button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -136,7 +136,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
               </div>
               <div className="flex items-center space-x-3 text-white/80">
                 <Phone size={18} />
-                <a href="tel:+917627005924" className="hover:text-white transition-colors">+91 76270 05924</a>
+                <button onClick={() => window.open('tel:+917627005924', '_self')} className="hover:text-white transition-colors text-left">+91 76270 05924</button>
               </div>
             </div>
           </div>
@@ -153,12 +153,12 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <span className="text-xs text-charcoal/60 font-medium">Consultation Fee</span>
           <span className="font-bold text-sage">₹499 <span className="text-xs font-normal text-charcoal/60">/ Session</span></span>
         </div> */}
-        <a
-          href="tel:+917627005924"
+        <button
+          onClick={() => window.open('tel:+917627005924', '_self')}
           className="bg-rose text-white px-8 py-3 rounded-full font-medium shadow-lg active:scale-95 transition-transform w-full text-center"
         >
           Book Consultation
-        </a>
+        </button>
       </div>
     </div>
   );
