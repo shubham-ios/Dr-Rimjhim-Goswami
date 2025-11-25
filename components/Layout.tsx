@@ -124,7 +124,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                 <li><Link to="/about" className="text-white/80 hover:text-white transition-colors">Our Mission</Link></li>
                 <li><Link to="/services" className="text-white/80 hover:text-white transition-colors">Infertility Treatment</Link></li>
                 <li><Link to="/contact" className="text-white/80 hover:text-white transition-colors">Contact Clinic</Link></li>
-                <li><Link to="/education" className="text-white/80 hover:text-white transition-colors">Speaking & Education</Link></li>
+                <li><Link to="https://maps.app.goo.gl/Y36TEtkoGeWRkSmo9" target="_blank" className="text-white/80 hover:text-white transition-colors">Get Directions</Link></li>
               </ul>
             </div>
 
