@@ -148,16 +148,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       </footer>
 
       {/* Mobile Sticky Action Bar */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 glass-panel border-t border-white/20 p-4 pb-6 flex items-center justify-between shadow-[0_-5px_20px_rgba(0,0,0,0.05)]">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 glass-panel border-t border-white/20 p-4 pb-6 flex items-center justify-center shadow-[0_-5px_20px_rgba(0,0,0,0.05)]">
         {/* <div className="flex flex-col">
           <span className="text-xs text-charcoal/60 font-medium">Consultation Fee</span>
           <span className="font-bold text-sage">₹499 <span className="text-xs font-normal text-charcoal/60">/ Session</span></span>
         </div> */}
         <a
           href="tel:+917627005924"
-          className="bg-rose text-white px-8 py-3 rounded-full font-medium shadow-lg active:scale-95 transition-transform"
+          className="bg-rose text-white px-8 py-3 rounded-full font-medium shadow-lg active:scale-95 transition-transform w-full text-center"
         >
-          Book Now
+          Book Consultation
         </a>
       </div>
     </div>
