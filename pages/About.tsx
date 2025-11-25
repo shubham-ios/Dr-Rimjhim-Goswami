@@ -8,11 +8,11 @@ const About: React.FC = () => {
     <>
       <title>Our Mission | Dr. Rimjhim Goswami</title>
       <meta name="description" content="The inspiring story behind our practice. Read about Dr. Rimjhim's mission to cure the patient, not just the disease, using holistic homeopathy." />
-      
+
       <Layout>
         <div className="bg-oatmeal pt-12 pb-24">
           <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-            
+
             {/* Header */}
             <div className="text-center mb-16">
               <h1 className="font-serif text-4xl md:text-5xl text-sage mb-6">Curing the Patient, Not Just the Disease</h1>
@@ -39,22 +39,22 @@ const About: React.FC = () => {
             {/* The Story */}
             <div className="bg-white rounded-3xl p-8 md:p-12 shadow-sm border border-gray-100 mb-20 relative overflow-hidden">
               <div className="absolute top-0 right-0 w-32 h-32 bg-sage/5 rounded-full -mr-16 -mt-16"></div>
-              
+
               <h2 className="font-serif text-3xl text-sage mb-8 relative z-10">The Metro Encounter: Where It Began</h2>
               <div className="space-y-6 text-charcoal/80 leading-relaxed relative z-10">
-                  {METRO_STORY.split('\n').map((paragraph, idx) => (
-                      paragraph.trim() && <p key={idx}>{paragraph}</p>
-                  ))}
+                {METRO_STORY.split('\n').map((paragraph, idx) => (
+                  paragraph.trim() && <p key={idx}>{paragraph}</p>
+                ))}
               </div>
               <div className="mt-8 pt-8 border-t border-gray-100">
-                  <p className="font-medium text-clay italic">
-                      "This experience taught me that healing requires patience, trust, and looking at the whole person, not just the lab reports." — Dr. Rimjhim
-                  </p>
+                <p className="font-medium text-clay italic">
+                  "This experience taught me that healing requires patience, trust, and looking at the whole person, not just the lab reports." — Dr. Rimjhim
+                </p>
               </div>
             </div>
 
             {/* Impact Chart */}
-            <div className="mb-20">
+            {/* <div className="mb-20">
               <h2 className="font-serif text-3xl text-sage mb-2 text-center">Growing Impact</h2>
               <p className="text-center text-charcoal/60 mb-10">Families helped annually through our holistic protocols</p>
               
@@ -77,7 +77,7 @@ const About: React.FC = () => {
                       </AreaChart>
                   </ResponsiveContainer>
               </div>
-            </div>
+            </div> */}
 
           </div>
         </div>
