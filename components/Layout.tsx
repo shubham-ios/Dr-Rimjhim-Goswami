@@ -121,9 +121,9 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
             <div>
               <h4 className="text-clay font-bold uppercase tracking-wider mb-6 text-sm">Quick Links</h4>
               <ul className="space-y-3">
-                <li><Link to="/about" className="text-white/80 hover:text-white transition-colors">Our Mission</Link></li>
+                {/* <li><Link to="/about" className="text-white/80 hover:text-white transition-colors">Our Mission</Link></li>
                 <li><Link to="/services" className="text-white/80 hover:text-white transition-colors">Infertility Treatment</Link></li>
-                <li><Link to="/contact" className="text-white/80 hover:text-white transition-colors">Contact Clinic</Link></li>
+                <li><Link to="/contact" className="text-white/80 hover:text-white transition-colors">Contact Clinic</Link></li> */}
                 <li><Link to="https://maps.app.goo.gl/Y36TEtkoGeWRkSmo9" target="_blank" className="text-white/80 hover:text-white transition-colors">Get Directions</Link></li>
               </ul>
             </div>
@@ -149,16 +149,16 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
 
       {/* Mobile Sticky Action Bar */}
       <div className="md:hidden fixed bottom-0 left-0 right-0 z-50 glass-panel border-t border-white/20 p-4 pb-6 flex items-center justify-between shadow-[0_-5px_20px_rgba(0,0,0,0.05)]">
-        <div className="flex flex-col">
+        {/* <div className="flex flex-col">
           <span className="text-xs text-charcoal/60 font-medium">Consultation Fee</span>
           <span className="font-bold text-sage">₹499 <span className="text-xs font-normal text-charcoal/60">/ Session</span></span>
-        </div>
-        <Link
-          to="/book"
+        </div> */}
+        <a
+          href="tel:+917627005924"
           className="bg-rose text-white px-8 py-3 rounded-full font-medium shadow-lg active:scale-95 transition-transform"
         >
           Book Now
-        </Link>
+        </a>
       </div>
     </div>
   );
