@@ -85,7 +85,7 @@ const Home: React.FC = () => {
                   <div className="flex text-clay">
                     {[1, 2, 3, 4, 5].map(i => <Star key={i} size={14} fill="currentColor" />)}
                   </div>
-                  <p className="font-medium mt-0.5">500+ Families Helped</p>
+                  <p className="font-medium mt-0.5">5000+ Families Helped</p>
                 </div>
               </div>
             </div>
@@ -215,7 +215,7 @@ const Home: React.FC = () => {
             referrerPolicy="no-referrer-when-downgrade"
             title="Clinic Location"
           ></iframe>
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white p-6 rounded-xl shadow-xl max-w-xs text-center">
+          <div className="absolute bottom-8 right-8 bg-white p-6 rounded-xl shadow-xl max-w-xs text-center">
             <h4 className="font-serif text-sage text-xl mb-2">Visit Our Clinic</h4>
             {/* <p className="text-charcoal/70 text-sm">Chhatarpur, New Delhi</p> */}
             <p className="text-charcoal/70 text-sm mb-4">Open Mon-Sun, 10:00 am - 8:00 pm</p>
