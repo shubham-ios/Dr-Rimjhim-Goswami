@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Menu, X, Phone, Calendar, Instagram, Mail, MapPin, Facebook, MessageCircle } from 'lucide-react';
+import logo from '../assets/logo.png';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -33,7 +34,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <img src="/assets/logo.png" alt="Dr. Rimjhim Goswami" className="h-16 w-auto" />
+            <img src={logo} alt="Dr. Rimjhim Goswami" className="h-16 w-auto" />
           </Link>
 
           {/* Desktop Nav */}
