@@ -99,7 +99,7 @@ const Services = () => {
                     </p>
                     <button
                         onClick={() => window.location.href = 'tel:+917627005924'}
-                        className="inline-block bg-white text-sage px-8 py-4 rounded-full font-bold hover:bg-oatmeal transition-colors shadow-lg"
+                        className="bg-rose text-white px-8 py-4 rounded-full font-medium hover:bg-rose/90 transition-colors shadow-lg shadow-rose/20"
                     >
                         Book Consultation
                     </button>
