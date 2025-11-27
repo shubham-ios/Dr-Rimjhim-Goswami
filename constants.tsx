@@ -69,6 +69,36 @@ export const CONDITIONS: Service[] = [
     title: 'Mind & Autism',
     description: 'Supportive therapies for Autism Spectrum, anxiety, and behavioral health.',
     icon: Brain
+  },
+  {
+    id: 'respiratory',
+    title: 'Respiratory & Allergies',
+    description: 'Managing chronic asthma, bronchitis, and allergic rhinitis by strengthening the body\'s natural respiratory defense.',
+    icon: Brain
+  },
+  {
+    id: 'gut',
+    title: 'Gut & Digestion',
+    description: 'Effective relief for IBS, acidity, gastritis, and piles through constitutional treatments that restore digestive balance.',
+    icon: Brain
+  },
+  {
+    id: 'joint',
+    title: 'Joint & Musculoskeletal',
+    description: 'Non-invasive pain management for arthritis, spondylitis, and sciatica, focusing on mobility and inflammation reduction.',
+    icon: Brain
+  },
+  {
+    id: 'metabolic',
+    title: 'Metabolic & Lifestyle',
+    description: 'Holistic management of Thyroid disorders, Diabetes, and hypertension by addressing the underlying metabolic root causes.',
+    icon: Brain
+  },
+  {
+    id: 'mens',
+    title: 'Men\'s Health',
+    description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men's wellness.',
+    icon: Brain
   }
 ];
 
