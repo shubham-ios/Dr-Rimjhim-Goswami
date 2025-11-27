@@ -97,7 +97,7 @@ export const CONDITIONS: Service[] = [
   {
     id: 'mens',
     title: 'Men\'s Health',
-    description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men's wellness.',
+    description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men\'s wellness.',
     icon: Brain
   }
 ];
