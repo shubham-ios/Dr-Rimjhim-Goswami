@@ -1,5 +1,5 @@
 import { Testimonial, Service, BlogPost, MetricData } from './types';
-import { Baby, Brain, Heart, Droplets, Sparkles, Activity, Wind, Utensils, Bone, Dna, Shield, Filter, Ear, Zap, ShieldCheck, Clock, Sprout, Flower2, Apple, Dumbbell, Leaf } from 'lucide-react';
+import { Baby, Brain, Heart, Droplets, Sparkles, Activity, Wind, Utensils, Bone, Dna, Shield, Filter, Ear, Zap, ShieldCheck, Clock, Sprout, Flower2, Apple, Dumbbell, Leaf, Moon, Sun, Stethoscope } from 'lucide-react';
 
 export const METRO_STORY = `
 During her internship at Bakson Homeopathic Medical College, Dr. Rimjhim encountered a man on the metro who noticed her medical coat. 
@@ -44,7 +44,7 @@ export const CONDITIONS: Service[] = [
     id: 'women',
     title: "Women's Health",
     description: 'Holistic care for PCOS, fibroids, endometriosis, and hormonal imbalances.',
-    icon: Flower2
+    icon: Moon
   },
   {
     id: 'dermatology',
@@ -98,13 +98,13 @@ export const CONDITIONS: Service[] = [
     id: 'mens',
     title: 'Men\'s Health',
     description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men\'s wellness.',
-    icon: Dumbbell
+    icon: Sun
   },
   {
     id: 'liver',
     title: 'Liver & Gallbladder Health',
     description: 'Non-surgical protocols for Fatty Liver, Gallstones, and Jaundice, focusing on detoxification and liver function restoration.',
-    icon: Leaf
+    icon: Stethoscope
   },
   {
     id: 'sinus',
