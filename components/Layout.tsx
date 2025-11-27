@@ -75,8 +75,8 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
         <div className="fixed inset-0 z-30 bg-white pt-24 px-6 md:hidden flex flex-col space-y-6">
           <Link to="/" className="text-2xl font-serif text-sage">Home</Link>
           <Link to="/about" className="text-2xl font-serif text-sage">About & Mission</Link>
-          {/* <Link to="/services" className="text-2xl font-serif text-sage">Conditions</Link>
-          <Link to="/contact" className="text-2xl font-serif text-sage">Contact</Link> */}
+          <Link to="/services" className="text-2xl font-serif text-sage">Conditions & Services</Link>
+          {/*<Link to="/contact" className="text-2xl font-serif text-sage">Contact</Link> */}
           <div className="pt-8 border-t border-gray-100">
             <button
               onClick={() => window.location.href = 'tel:+917627005924'}

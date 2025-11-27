@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import Layout from '../components/Layout';
 import { CONDITIONS } from '../constants';
-import { ArrowRight, Calendar } from 'lucide-react';
+
 import { Link, useLocation } from 'react-router-dom';
 
 const Services = () => {
@@ -75,16 +75,7 @@ const Services = () => {
                                     </div>
                                 </div>
 
-                                <div className="pt-4">
-                                    <Link
-                                        to="/book"
-                                        className="inline-flex items-center gap-2 bg-rose text-white px-6 py-3 rounded-full hover:bg-rose/90 transition-colors"
-                                    >
-                                        <Calendar size={18} />
-                                        <span>Book Consultation for {condition.title}</span>
-                                        <ArrowRight size={18} />
-                                    </Link>
-                                </div>
+
                             </div>
                         </div>
                     );
@@ -98,12 +89,12 @@ const Services = () => {
                     <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
                         Book an appointment today and take the first step towards holistic wellness.
                     </p>
-                    <Link
-                        to="/book"
-                        className="inline-block bg-white text-sage px-8 py-4 rounded-full font-bold hover:bg-oatmeal transition-colors"
+                    <button
+                        onClick={() => window.location.href = 'tel:+917627005924'}
+                        className="inline-block bg-white text-sage px-8 py-4 rounded-full font-bold hover:bg-oatmeal transition-colors shadow-lg"
                     >
-                        Schedule Your Visit
-                    </Link>
+                        Book Consultation
+                    </button>
                 </div>
             </div>
         </Layout>
