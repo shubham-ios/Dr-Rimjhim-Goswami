@@ -38,97 +38,209 @@ export const CONDITIONS: Service[] = [
     id: 'infertility',
     title: 'Infertility',
     description: 'Natural protocols to improve reproductive health for couples struggling to conceive.',
-    icon: Sprout
+    icon: Sprout,
+    symptoms: [
+      "Irregular menstrual cycles",
+      "Hormonal imbalances (PCOS/PCOD)",
+      "Low sperm count or motility",
+      "Unexplained infertility"
+    ],
+    approach: "We focus on constitutional treatment to correct hormonal imbalances and improve reproductive health naturally, without invasive procedures."
   },
   {
     id: 'women',
     title: "Women's Health",
     description: 'Holistic care for PCOS, fibroids, endometriosis, and hormonal imbalances.',
-    icon: Moon
+    icon: Moon,
+    symptoms: [
+      "Severe menstrual cramps",
+      "Heavy or irregular bleeding",
+      "Mood swings and PMS",
+      "Hot flashes and menopausal symptoms"
+    ],
+    approach: "Our holistic approach addresses the root cause of hormonal disruptions, offering relief from pain and regulating cycles gently."
   },
   {
     id: 'dermatology',
     title: 'Skin & Hair',
     description: 'Treating Vitiligo, Eczema, Psoriasis, and Alopecia from the root cause.',
-    icon: Sparkles
+    icon: Sparkles,
+    symptoms: [
+      "Chronic itching or redness",
+      "White patches (Vitiligo)",
+      "Hair thinning or patchy hair loss",
+      "Acne and skin eruptions"
+    ],
+    approach: "We treat skin diseases as an external expression of internal imbalance, using remedies that restore skin health from within."
   },
   {
     id: 'kidney',
     title: 'Renal Care',
     description: 'Non-surgical management of kidney stones and recurring urinary issues.',
-    icon: Droplets
+    icon: Droplets,
+    symptoms: [
+      "Recurring kidney stones",
+      "Burning sensation during urination",
+      "Frequent urinary tract infections",
+      "Flank pain"
+    ],
+    approach: "Homeopathy helps dissolve stones naturally and prevents their recurrence by correcting the body's tendency to form them."
   },
   {
     id: 'paediatric',
     title: 'Paediatric Care',
     description: 'Gentle healing for immunity, growth, and developmental concerns.',
-    icon: Baby
+    icon: Baby,
+    symptoms: [
+      "Recurrent colds and coughs",
+      "Delayed growth or milestones",
+      "Low immunity",
+      "Behavioral issues"
+    ],
+    approach: "Gentle and safe remedies boost the child's immunity, promoting healthy growth and development without side effects."
   },
   {
     id: 'mind',
     title: 'Mind & Autism',
     description: 'Supportive therapies for Autism Spectrum, anxiety, and behavioral health.',
-    icon: Brain
+    icon: Brain,
+    symptoms: [
+      "Difficulty in social interaction",
+      "Repetitive behaviors",
+      "Anxiety and restlessness",
+      "Delayed speech"
+    ],
+    approach: "We provide supportive constitutional therapy to improve behavioral patterns, cognitive function, and emotional stability."
   },
   {
     id: 'respiratory',
     title: 'Respiratory & Allergies',
     description: 'Managing chronic asthma, bronchitis, and allergic rhinitis by strengthening the body\'s natural respiratory defense.',
-    icon: Wind
+    icon: Wind,
+    symptoms: [
+      "Chronic cough and wheezing",
+      "Shortness of breath",
+      "Frequent sneezing and runny nose",
+      "Chest tightness"
+    ],
+    approach: "Our treatment strengthens the respiratory system and reduces hypersensitivity to allergens, providing long-term relief."
   },
   {
     id: 'gut',
     title: 'Gut & Digestion',
     description: 'Effective relief for IBS, acidity, gastritis, and piles through constitutional treatments that restore digestive balance.',
-    icon: Apple
+    icon: Apple,
+    symptoms: [
+      "Chronic acidity and bloating",
+      "Irregular bowel movements",
+      "Abdominal pain and cramping",
+      "Constipation or diarrhea"
+    ],
+    approach: "We aim to restore the natural balance of the gut microbiome and improve digestion through individualized remedies."
   },
   {
     id: 'joint',
     title: 'Joint & Musculoskeletal',
     description: 'Non-invasive pain management for arthritis, spondylitis, and sciatica, focusing on mobility and inflammation reduction.',
-    icon: Bone
+    icon: Bone,
+    symptoms: [
+      "Joint pain and stiffness",
+      "Swelling and inflammation",
+      "Reduced range of motion",
+      "Back and neck pain"
+    ],
+    approach: "Homeopathy offers effective pain management and reduces inflammation, improving mobility and quality of life."
   },
   {
     id: 'metabolic',
     title: 'Metabolic & Lifestyle',
     description: 'Holistic management of Thyroid disorders, Diabetes, and hypertension by addressing the underlying metabolic root causes.',
-    icon: Dna
+    icon: Dna,
+    symptoms: [
+      "Unexplained weight gain or loss",
+      "Fatigue and lethargy",
+      "High blood sugar levels",
+      "Thyroid imbalances"
+    ],
+    approach: "We address metabolic disorders by regulating the body's internal functions and encouraging lifestyle modifications."
   },
   {
     id: 'mens',
     title: 'Men\'s Health',
     description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men\'s wellness.',
-    icon: Sun
+    icon: Sun,
+    symptoms: [
+      "Prostate enlargement issues",
+      "Sexual dysfunction",
+      "Low energy and vitality",
+      "Urinary difficulties"
+    ],
+    approach: "Confidential and effective treatment protocols tailored to improve men's specific health concerns and overall vitality."
   },
   {
     id: 'liver',
     title: 'Liver & Gallbladder Health',
     description: 'Non-surgical protocols for Fatty Liver, Gallstones, and Jaundice, focusing on detoxification and liver function restoration.',
-    icon: Stethoscope
+    icon: Stethoscope,
+    symptoms: [
+      "Fatty liver diagnosis",
+      "Jaundice or yellowing of eyes",
+      "Digestive disturbances",
+      "Pain in the upper right abdomen"
+    ],
+    approach: "Our remedies support liver detoxification and regeneration, improving liver function tests and overall health."
   },
   {
     id: 'sinus',
     title: 'ENT & Sinus Care',
     description: 'Gentle holistic cures for chronic Sinusitis, Tonsillitis, Nasal Polyps, and Adenoids, preventing the need for surgical removal.',
-    icon: Ear
+    icon: Ear,
+    symptoms: [
+      "Chronic sinus congestion",
+      "Recurrent tonsillitis",
+      "Nasal polyps",
+      "Hearing difficulties or ear pain"
+    ],
+    approach: "We focus on shrinking polyps and tonsils naturally, reducing the need for surgical intervention and preventing recurrence."
   },
   {
     id: 'nerve',
     title: 'Neurological & Nerve Care',
     description: 'Specialized management for Migraines, Vertigo, Neuralgia, and Paralysis by soothing nerve inflammation and restoring signaling.',
-    icon: Activity
+    icon: Activity,
+    symptoms: [
+      "Severe headaches or migraines",
+      "Dizziness and vertigo",
+      "Nerve pain or numbness",
+      "Tremors"
+    ],
+    approach: "Homeopathy helps soothe inflamed nerves and restore normal signaling, providing relief from chronic neurological symptoms."
   },
   {
     id: 'autoimmune',
     title: 'Autoimmune & Immunity',
     description: 'Constitutional modulation for complex autoimmune disorders like Lupus and Rheumatoid conditions, helping the immune system stop attacking healthy cells.',
-    icon: ShieldCheck
+    icon: ShieldCheck,
+    symptoms: [
+      "Joint pain and fatigue",
+      "Skin rashes",
+      "Recurring infections",
+      "Inflammation in multiple organs"
+    ],
+    approach: "We modulate the immune system to stop it from attacking healthy cells, managing autoimmune conditions effectively."
   },
   {
     id: 'geriatric',
     title: 'Geriatric & Senior Wellness',
     description: 'Supportive care for age-related concerns including memory loss, trembling, prostate health, and general vitality in senior years.',
-    icon: Clock
+    icon: Clock,
+    symptoms: [
+      "Memory lapses",
+      "General weakness",
+      "Sleep disturbances",
+      "Age-related aches and pains"
+    ],
+    approach: "Supportive care to improve the quality of life for seniors, addressing age-related degeneration and promoting vitality."
   }
 ];
 

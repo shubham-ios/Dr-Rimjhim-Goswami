@@ -13,6 +13,8 @@ export interface Service {
   title: string;
   description: string;
   icon: LucideIcon;
+  symptoms: string[];
+  approach: string;
 }
 
 export interface BlogPost {
