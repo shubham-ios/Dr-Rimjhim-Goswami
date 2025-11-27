@@ -1,5 +1,5 @@
 import { Testimonial, Service, BlogPost, MetricData } from './types';
-import { Baby, Brain, Heart, Droplets, Sparkles, Activity } from 'lucide-react';
+import { Baby, Brain, Heart, Droplets, Sparkles, Activity, Wind, Utensils, Bone, Dna, Shield } from 'lucide-react';
 
 export const METRO_STORY = `
 During her internship at Bakson Homeopathic Medical College, Dr. Rimjhim encountered a man on the metro who noticed her medical coat. 
@@ -74,31 +74,31 @@ export const CONDITIONS: Service[] = [
     id: 'respiratory',
     title: 'Respiratory & Allergies',
     description: 'Managing chronic asthma, bronchitis, and allergic rhinitis by strengthening the body\'s natural respiratory defense.',
-    icon: Brain
+    icon: Wind
   },
   {
     id: 'gut',
     title: 'Gut & Digestion',
     description: 'Effective relief for IBS, acidity, gastritis, and piles through constitutional treatments that restore digestive balance.',
-    icon: Brain
+    icon: Utensils
   },
   {
     id: 'joint',
     title: 'Joint & Musculoskeletal',
     description: 'Non-invasive pain management for arthritis, spondylitis, and sciatica, focusing on mobility and inflammation reduction.',
-    icon: Brain
+    icon: Bone
   },
   {
     id: 'metabolic',
     title: 'Metabolic & Lifestyle',
     description: 'Holistic management of Thyroid disorders, Diabetes, and hypertension by addressing the underlying metabolic root causes.',
-    icon: Brain
+    icon: Dna
   },
   {
     id: 'mens',
     title: 'Men\'s Health',
     description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men\'s wellness.',
-    icon: Brain
+    icon: Shield
   }
 ];
 
