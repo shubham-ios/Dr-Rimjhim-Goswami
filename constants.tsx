@@ -1,5 +1,5 @@
 import { Testimonial, Service, BlogPost, MetricData } from './types';
-import { Baby, Brain, Heart, Droplets, Sparkles, Activity, Wind, Utensils, Bone, Dna, Shield, Filter, Ear, Zap, ShieldCheck, Clock } from 'lucide-react';
+import { Baby, Brain, Heart, Droplets, Sparkles, Activity, Wind, Utensils, Bone, Dna, Shield, Filter, Ear, Zap, ShieldCheck, Clock, Sprout, Flower2, Apple, Dumbbell, Leaf } from 'lucide-react';
 
 export const METRO_STORY = `
 During her internship at Bakson Homeopathic Medical College, Dr. Rimjhim encountered a man on the metro who noticed her medical coat. 
@@ -38,13 +38,13 @@ export const CONDITIONS: Service[] = [
     id: 'infertility',
     title: 'Infertility',
     description: 'Natural protocols to improve reproductive health for couples struggling to conceive.',
-    icon: Baby
+    icon: Sprout
   },
   {
     id: 'women',
     title: "Women's Health",
     description: 'Holistic care for PCOS, fibroids, endometriosis, and hormonal imbalances.',
-    icon: Heart
+    icon: Flower2
   },
   {
     id: 'dermatology',
@@ -62,7 +62,7 @@ export const CONDITIONS: Service[] = [
     id: 'paediatric',
     title: 'Paediatric Care',
     description: 'Gentle healing for immunity, growth, and developmental concerns.',
-    icon: Activity
+    icon: Baby
   },
   {
     id: 'mind',
@@ -80,7 +80,7 @@ export const CONDITIONS: Service[] = [
     id: 'gut',
     title: 'Gut & Digestion',
     description: 'Effective relief for IBS, acidity, gastritis, and piles through constitutional treatments that restore digestive balance.',
-    icon: Utensils
+    icon: Apple
   },
   {
     id: 'joint',
@@ -98,13 +98,13 @@ export const CONDITIONS: Service[] = [
     id: 'mens',
     title: 'Men\'s Health',
     description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men\'s wellness.',
-    icon: Shield
+    icon: Dumbbell
   },
   {
     id: 'liver',
     title: 'Liver & Gallbladder Health',
     description: 'Non-surgical protocols for Fatty Liver, Gallstones, and Jaundice, focusing on detoxification and liver function restoration.',
-    icon: Filter
+    icon: Leaf
   },
   {
     id: 'sinus',
@@ -116,7 +116,7 @@ export const CONDITIONS: Service[] = [
     id: 'nerve',
     title: 'Neurological & Nerve Care',
     description: 'Specialized management for Migraines, Vertigo, Neuralgia, and Paralysis by soothing nerve inflammation and restoring signaling.',
-    icon: Zap
+    icon: Activity
   },
   {
     id: 'autoimmune',
