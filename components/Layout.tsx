@@ -42,7 +42,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
           <div className="hidden md:flex items-center space-x-8">
             <Link to="/" className="text-charcoal hover:text-sage transition-colors font-medium">Home</Link>
             <Link to="/about" className="text-charcoal hover:text-sage transition-colors font-medium">About & Mission</Link>
-            <Link to="/services" className="text-charcoal hover:text-sage transition-colors font-medium">Conditions</Link>
+            <Link to="/services" className="text-charcoal hover:text-sage transition-colors font-medium">Conditions & Services</Link>
             {/*<Link to="/contact" className="text-charcoal hover:text-sage transition-colors font-medium">Contact</Link> */}
             {/* <Link
               to="/book"

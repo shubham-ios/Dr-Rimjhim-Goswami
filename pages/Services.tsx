@@ -12,7 +12,15 @@ const Services = () => {
             const id = location.hash.replace('#', '');
             const element = document.getElementById(id);
             if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
+                // Get the element's position
+                const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+                // Offset for fixed header (navbar height + some padding)
+                const offsetPosition = elementPosition - 120; // 96px navbar + 24px extra padding
+
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
             }
         } else {
             window.scrollTo(0, 0);
