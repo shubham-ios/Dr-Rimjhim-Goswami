@@ -3,8 +3,9 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './pages/Home';
 import About from './pages/About';
 import Booking from './pages/Booking';
+import Services from './pages/Services';
 
-{/*// Placeholder components for routes not fully implemented in this iteration
+{/* // Placeholder components for routes not fully implemented in this iteration
 const Services = () => (
   <div className="min-h-screen bg-oatmeal flex items-center justify-center p-4">
     <div className="text-center">
@@ -13,9 +14,7 @@ const Services = () => (
       <a href="/" className="text-rose mt-4 block">Back Home</a>
     </div>
   </div>
-*/}
-
-import Services from './pages/Services';
+);
 
 const Contact = () => (
   <div className="min-h-screen bg-oatmeal flex items-center justify-center p-4">
@@ -26,7 +25,7 @@ const Contact = () => (
     </div>
   </div>
 );
-
+*/}
 function App() {
   return (
     <Router>
