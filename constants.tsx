@@ -1,5 +1,5 @@
 import { Testimonial, Service, BlogPost, MetricData } from './types';
-import { Baby, Brain, Heart, Droplets, Sparkles, Activity, Wind, Utensils, Bone, Dna, Shield } from 'lucide-react';
+import { Baby, Brain, Heart, Droplets, Sparkles, Activity, Wind, Utensils, Bone, Dna, Shield, Filter, Ear, Zap, ShieldCheck, Clock } from 'lucide-react';
 
 export const METRO_STORY = `
 During her internship at Bakson Homeopathic Medical College, Dr. Rimjhim encountered a man on the metro who noticed her medical coat. 
@@ -99,6 +99,36 @@ export const CONDITIONS: Service[] = [
     title: 'Men\'s Health',
     description: 'Confidential and effective care for prostate issues, sexual health, and vitality, tailored specifically for men\'s wellness.',
     icon: Shield
+  },
+  {
+    id: 'liver',
+    title: 'Liver & Gallbladder Health',
+    description: 'Non-surgical protocols for Fatty Liver, Gallstones, and Jaundice, focusing on detoxification and liver function restoration.',
+    icon: Filter
+  },
+  {
+    id: 'sinus',
+    title: 'ENT & Sinus Care',
+    description: 'Gentle holistic cures for chronic Sinusitis, Tonsillitis, Nasal Polyps, and Adenoids, preventing the need for surgical removal.',
+    icon: Ear
+  },
+  {
+    id: 'nerve',
+    title: 'Neurological & Nerve Care',
+    description: 'Specialized management for Migraines, Vertigo, Neuralgia, and Paralysis by soothing nerve inflammation and restoring signaling.',
+    icon: Zap
+  },
+  {
+    id: 'autoimmune',
+    title: 'Autoimmune & Immunity',
+    description: 'Constitutional modulation for complex autoimmune disorders like Lupus and Rheumatoid conditions, helping the immune system stop attacking healthy cells.',
+    icon: ShieldCheck
+  },
+  {
+    id: 'geriatric',
+    title: 'Geriatric & Senior Wellness',
+    description: 'Supportive care for age-related concerns including memory loss, trembling, prostate health, and general vitality in senior years.',
+    icon: Clock
   }
 ];
 
